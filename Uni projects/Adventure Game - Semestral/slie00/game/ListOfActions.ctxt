@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ListOfActions
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ seznam\ p\u0159\u00EDpustn\u00FDch\ p\u0159\u00EDkaz\u016F,\ kter\u00E9\ lze\ ve\ h\u0159e\ pou\u017E\u00EDvat.\r\n\ Pou\u017E\u00EDv\u00E1\ se\ pro\ rozpozn\u00E1v\u00E1n\u00ED\ p\u0159\u00EDkaz\u016F\ dle\ jejich\ n\u00E1zv\u016F\ a\ vr\u00E1cen\u00ED\ odkazu\r\n\ na\ instanci\ t\u0159\u00EDdy\ implementuj\u00EDc\u00ED\ konkr\u00E9tn\u00ED\ p\u0159\u00EDkaz.\ Ka\u017Ed\u00FD\ nov\u00FD\ p\u0159\u00EDkaz\r\n\ <i>(instance\ implementuj\u00EDc\u00ED\ rozhran\u00ED\ {@link\ IAction})</i>\ se\ mus\u00ED\r\n\ do\ seznamu\ p\u0159idat\ pomoc\u00ED\ metody\ {@link\ \#addAction(IAction)\ addAction}.\r\n\ \r\n\ @author\ Sliusareva\ Elizaveta\r\n\ @version\ ZS-2020,\ 2021-01-10\r\n
+comment1.params=
+comment1.target=ListOfActions()
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n
+comment2.params=action
+comment2.target=void\ addAction(IAction)
+comment2.text=\r\n\ Metoda\ vkl\u00E1d\u00E1\ nov\u00FD\ p\u0159\u00EDkaz\ do\ seznamu.\r\n\r\n\ @param\ action\ instance\ t\u0159\u00EDdy\ implementuj\u00EDc\u00ED\ rozhran\u00ED\ {@link\ IAction},\ kter\u00E1\ p\u0159edstavuje\ hern\u00ED\ p\u0159\u00EDkaz\r\n
+comment3.params=name
+comment3.target=boolean\ checkAction(java.lang.String)
+comment3.text=\r\n\ Metoda\ zkontroluje,\ zda\ je\ mo\u017En\u00E9\ ve\ h\u0159e\ pou\u017E\u00EDt\ p\u0159\u00EDkaz\ se\ zadan\u00FDm\ n\u00E1zvem.\r\n\r\n\ @param\ name\ n\u00E1zev\ p\u0159\u00EDkazu\r\n\ @return\ {@code\ true},\ pokud\ je\ mo\u017En\u00E9\ p\u0159\u00EDkaz\ ve\ h\u0159e\ pou\u017E\u00EDt;\ jinak\ {@code\ false}\r\n
+comment4.params=name
+comment4.target=IAction\ getAction(java.lang.String)
+comment4.text=\r\n\ Metoda\ vrac\u00ED\ odkaz\ na\ instanci\ t\u0159\u00EDdy\ implementuj\u00EDc\u00ED\ p\u0159\u00EDkaz\ s\ dan\u00FDm\ n\u00E1zvem.\r\n\r\n\ @param\ name\ n\u00E1zev\ p\u0159\u00EDkazu,\ kter\u00FD\ chce\ hr\u00E1\u010D\ zavolat\r\n\ @return\ instance\ t\u0159\u00EDdy\ p\u0159edstavuj\u00EDc\u00ED\ implementaci\ dan\u00E9ho\ p\u0159\u00EDkazu;\ {@code\ null},\ pokud\ takov\u00FD\ p\u0159\u00EDkaz\ neexistuje\r\n
+comment5.params=
+comment5.target=java.lang.String\ getAllNames()
+comment5.text=\r\n\ Metoda\ vrac\u00ED\ seznam\ n\u00E1zv\u016F\ v\u0161ech\ p\u0159\u00EDpustn\u00FDch\ p\u0159\u00EDkaz\u016F\ ve\ h\u0159e.\ Jednotliv\u00E9\ n\u00E1zvy\ jsou\ odd\u011Blen\u00E9\ \u010D\u00E1rkou.\r\n\r\n\ @return\ seznam\ n\u00E1zv\u016F\ p\u0159\u00EDpustn\u00FDch\ p\u0159\u00EDkaz\u016F\r\n
+numComments=6

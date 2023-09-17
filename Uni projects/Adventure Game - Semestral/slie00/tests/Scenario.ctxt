@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Scenario
+comment0.text=\r\n\ Instance\ interfejsu\ {@code\ Scenario}\ p\u0159edstavuj\u00ED\ sc\u00E9n\u00E1\u0159e,\ podle\ kter\u00FDch\r\n\ je\ mo\u017Eno\ hr\u00E1t\ hru,\ pro\ kterou\ jsou\ ur\u010Deny.\ Aby\ bylo\ mo\u017Eno\ jednotliv\u00E9\r\n\ sc\u00E9n\u00E1\u0159e\ od\ sebe\ odli\u0161it,\ je\ ka\u017Ed\u00FD\ pojmenov\u00E1n.\r\n\r\n\ Pozd\u011Bji\ ka\u017Ed\u00E9mu\ sc\u00E9n\u00E1\u0159i\ p\u0159i\u0159ad\u00EDme\ tak\u00E9\ typ,\ podle\ kter\u00E9\ lze\ bl\u00ED\u017Ee\ ur\u010Dit,\r\n\ k\ \u010Demu\ je\ mo\u017Eno\ dan\u00FD\ sc\u00E9n\u00E1\u0159\ pou\u017E\u00EDt.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2020-Winter\r\n
+comment1.params=steps
+comment1.target=Scenario(ScenarioStep[])
+comment1.text=\r\n\ Vytvo\u0159\u00ED\ nov\u00FD\ sc\u00E9n\u00E1\u0159\ zadan\u00E9ho\ n\u00E1zvu\ ur\u010Den\u00FD\ pro\ zadanou\ hru.\ Konstruktor\ prov\u011B\u0159\u00ED,\r\n\ jestli\ kroky\ sc\u00E9n\u00E1\u0159e\ alespo\u0148\ form\u00E1ln\u011B\ vyhovuj\u00ED\ po\u017Eadavk\u016Fm.\r\n\r\n\ @param\ steps\ jednotliv\u00E9\ kroky\ realizuj\u00EDc\u00ED\ dan\u00FD\ sc\u00E9n\u00E1\u0159,\ p\u0159\u00EDkaz\ v\ prvn\u00EDm\ <i>(p\u0159esn\u011Bji\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ nult\u00E9m)</i>\ kroku\ mus\u00ED\ b\u00FDt\ definov\u00E1na\ jako\ pr\u00E1zdn\u00FD\ \u0159et\u011Bzec\r\n
+comment2.params=
+comment2.target=ScenarioStep[]\ steps()
+comment2.text=\r\n\ Vr\u00E1t\u00ED\ vektor\ (jednorozm\u011Brn\u00E9\ pole)\ krok\u016F\ \ dan\u00E9ho\ sc\u00E9n\u00E1\u0159e.\r\n\r\n\ @return\ vektor\ krok\u016F\ dan\u00E9ho\ sc\u00E9n\u00E1\u0159e\r\n
+numComments=3

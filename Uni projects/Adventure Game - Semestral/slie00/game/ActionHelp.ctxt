@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ActionHelp
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ nazev\ a\ t\u011Bxtov\u00FD\ \u0159et\u011Bzec\ p\u0159\u00EDkazu,\ pomoc\u00ED\ kter\u00E9ho\ hr\u00E1\u010D\ dozv\u00ED,\ co\ m\u00E1\ d\u011Blat\r\n\ \r\n\ @author\ Sliusareva\ Elizaveta\r\n\ @version\ ZS-2020,\ 2021-01-10\r\n
+comment1.params=game
+comment1.target=ActionHelp(Game)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n\r\n\ @param\ game\ hra,\ ve\ kter\u00E9\ se\ bude\ p\u0159\u00EDkaz\ pou\u017E\u00EDvat\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ tj.&nbsp;\ slovo\ <b>n\u00E1pov\u011Bda</b>.\r\n\r\n\ @return\ n\u00E1zev\ p\u0159\u00EDkazu\r\n
+comment3.params=parameters
+comment3.target=java.lang.String\ execute(java.lang.String[])
+comment3.text=\r\n\ Metoda\ vrac\u00ED\ obecnou\ n\u00E1pov\u011Bdu\ ke\ h\u0159e.\ Nyn\u00ED\ vypisuje\ vcelku\ primitivn\u00ED\r\n\ zpr\u00E1vu\ o\ hern\u00EDm\ p\u0159\u00EDb\u011Bhu\ a\ seznam\ dostupn\u00FDch\ p\u0159\u00EDkaz\u016F,\ kter\u00E9\ m\u016F\u017Ee\ hr\u00E1\u010D\r\n\ pou\u017E\u00EDvat.\r\n\r\n\ @param\ parameters\ parametry\ p\u0159\u00EDkazu\ <i>(aktu\u00E1ln\u011B\ se\ ignoruj\u00ED)</i>\r\n\ @return\ n\u00E1pov\u011Bda,\ kterou\ hra\ vyp\u00ED\u0161e\ na\ konzoli\r\n
+numComments=4

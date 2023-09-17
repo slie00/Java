@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GhostRegister
+comment1.params=
+comment1.target=GhostRegister()
+comment2.params=ghost
+comment2.target=boolean\ addGhost(Ghost)
+comment3.params=
+comment3.target=java.util.Collection\ getAllGhosts()
+comment4.params=
+comment4.target=java.lang.String\ getTestVariant()
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Mode
+comment0.text=\r\n\ Enumerace\ obsahuj\u00EDc\u00ED\ m\u00F3dy,\ ve\ kter\u00FDch\ lze\ spustit\ aplikaci.\r\n\r\n\ @author\ Sliusareva\ Elizaveta\r\n\ @version\ ZS-2020,\ 2021-01-10\r\n
+comment1.params=modeName
+comment1.target=boolean\ checkMode(java.lang.String)
+comment1.text=\r\n\ Metoda\ zkontroluje,\ zda\ existuje\ spou\u0161t\u011Bc\u00ED\ m\u00F3d\ aplikace\ s\ dan\u00FDm\ n\u00E1zvem.\r\n\r\n\ @param\ modeName\ n\u00E1zev\ spou\u0161t\u011Bc\u00EDho\ m\u00F3du\ aplikace\r\n\ @return\ {@code\ true},\ pokud\ existuje\ spou\u0161t\u011Bc\u00ED\ m\u00F3d\ aplikace\ s\ dan\u00FDm\ n\u00E1zvem;\ jinak\ {@code\ false}\r\n
+comment2.params=modeName
+comment2.target=Mode\ getMode(java.lang.String)
+comment2.text=\r\n\ Metoda\ vyhled\u00E1\ spou\u0161t\u011Bc\u00ED\ m\u00F3d\ aplikace\ s\ dan\u00FDm\ n\u00E1zvem\ a\ vr\u00E1t\u00ED\ na\ n\u011Bj\ odkaz.\r\n\r\n\ @param\ modeName\ n\u00E1zev\ spou\u0161t\u011Bc\u00EDho\ m\u00F3du\ aplikace\r\n\ @return\ spou\u0161t\u011Bc\u00ED\ m\u00F3d\ aplikace\ s\ dan\u00FDm\ n\u00E1zvem;\ {@code\ null},\ pokud\ neexistuje\r\n
+numComments=3

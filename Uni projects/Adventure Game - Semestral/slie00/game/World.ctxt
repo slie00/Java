@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=World
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ mapu\ prostor\u016F\ hern\u00EDho\ sv\u011Bta.\ V\ datov\u00E9m\ atributu\r\n\ {@link\ \#currentPlace}\ uchov\u00E1v\u00E1\ odkaz\ na\ aktu\u00E1ln\u00ED\ prostor,\ ve\ kter\u00E9m\r\n\ se\ hr\u00E1\u010D\ pr\u00E1v\u011B\ nach\u00E1z\u00ED.\ Z\ aktu\u00E1ln\u00EDho\ prostoru\ je\ mo\u017En\u00E9\ se\ prost\u0159ednictv\u00EDm\r\n\ jeho\ soused\u016F\ dostat\ ke\ v\u0161em\ p\u0159\u00EDstupn\u00FDm\ prostor\u016Fm\ ve\ h\u0159e.\r\n\r\n\ @author\ Elizaveta\ Sliusareva\r\n\ @version\ ZS-2020,\ 2021-01-10\r\n
+comment1.params=
+comment1.target=World()
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy,\ vytvo\u0159\u00ED\ jednotliv\u00E9\ prostory\ a\ propoj\u00ED\ je\ pomoc\u00ED\r\n\ v\u00FDchod\u016F.\r\n
+comment2.params=
+comment2.target=Place\ getCurrentPlace()
+comment2.text=\r\n\ Metoda\ vrac\u00ED\ odkaz\ na\ aktu\u00E1ln\u00ED\ prostor,\ ve\ kter\u00E9m\ se\ hr\u00E1\u010D\ pr\u00E1v\u011B\r\n\ nach\u00E1z\u00ED.\r\n\r\n\ @return\ aktu\u00E1ln\u00ED\ prostor\r\n
+comment3.params=place
+comment3.target=void\ setCurrentPlace(Place)
+comment3.text=\r\n\ Metoda\ nastav\u00ED\ aktu\u00E1ln\u00ED\ prostor,\ pou\u017E\u00EDv\u00E1\ ji\ p\u0159\u00EDkaz\ {@link\ ActionMove}\r\n\ p\u0159i\ p\u0159echodu\ mezi\ prostory.\r\n\r\n\ @param\ place\ prostor,\ kter\u00FD\ bude\ nastaven\ jako\ aktu\u00E1ln\u00ED\r\n
+numComments=4

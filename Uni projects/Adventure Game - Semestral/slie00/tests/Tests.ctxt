@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Tests
+comment0.text=\r\n\ T\u0159\u00EDda\ obsahuje\ logiku\ pro\ v\u00FDpis\ a\ vyhodnocov\u00E1n\u00ED\ testovac\u00EDch\ sc\u00E9n\u00E1\u0159\u016F.\r\n\r\n\ @author\ \ Jan\ \u0158\u00EDha\r\n\ @version\ ZS-2020,\ 2020-12-17\r\n
+comment1.params=scenarios\ complex
+comment1.target=void\ simulate(java.util.Collection,\ boolean)
+comment1.text=\r\n\ Metoda\ provede\ v\u00FDpis\ p\u0159edan\u00FDch\ testovac\u00EDch\ sc\u00E9n\u00E1\u0159\u016F\ na\ konzoli.\r\n\r\n\ @param\ scenarios\ kolekce\ testovac\u00EDch\ sc\u00E9n\u00E1\u0159\u016F\ pro\ v\u00FDpis\r\n\ @param\ complex\ p\u0159\u00EDznak,\ zda\ se\ m\u00E1\ prov\u00E1d\u011Bt\ podrobn\u00FD\ v\u00FDpis\ <i>(v\u010Detn\u011B\ po\u017Eadovan\u00FDch\ stav\u016F\ hry)</i>\r\n
+comment10.params=strings
+comment10.target=java.lang.String\ collectStrings(java.lang.String[])
+comment2.params=scenario\ complex
+comment2.target=void\ simulate(Scenario,\ boolean)
+comment3.params=scenarios
+comment3.target=void\ runTests(java.util.Collection)
+comment3.text=\r\n\ Metoda\ spust\u00ED\ testy\ p\u0159edan\u00FDch\ testovac\u00EDch\ sc\u00E9n\u00E1\u0159\u016F\ a\ vypisuje\ na\ konzoli\ podrobn\u00E9\ v\u00FDsledky.\r\n\r\n\ @param\ scenarios\ kolekce\ testovac\u00EDch\ sc\u00E9n\u00E1\u0159\u016F\ pro\ spu\u0161t\u011Bn\u00ED\r\n
+comment4.params=scenario
+comment4.target=boolean\ runTest(Scenario)
+comment5.params=step\ actionResult
+comment5.target=CheckResult\ checkActionResult(ScenarioStep,\ java.lang.String)
+comment6.params=step\ game
+comment6.target=CheckResult\ checkPlace(ScenarioStep,\ game.Game)
+comment7.params=step\ game
+comment7.target=CheckResult\ checkNeighbors(ScenarioStep,\ game.Game)
+comment8.params=step\ game
+comment8.target=CheckResult\ checkPlaceItems(ScenarioStep,\ game.Game)
+comment9.params=step\ game
+comment9.target=CheckResult\ checkBagItems(ScenarioStep,\ game.Game)
+numComments=11

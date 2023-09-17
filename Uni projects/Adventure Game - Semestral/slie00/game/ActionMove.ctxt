@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ActionMove
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ nazev\ akce\ a\ souvisej\u00EDc\u00ED\ s\ n\u00ED\ textov\u00E9\ \u0159et\u011Bzce\ p\u0159\u00EDkaz\u016F,\ pomoc\u00ED\ kter\u00E9\ se\ hr\u00E1\u010D\ pohybuje\ mezi\ m\u00EDstnostmi.\ \r\n\ Kontroluje\ se,\ zda\ c\u00EDl,\ kam\ se\ hrdina\ pohybuje,\ je\ spr\u00E1vn\u011B\ nastaven\ a\ taky\ jestli\ zadan\u00FD\ prostor\ ve\ h\u0159e\ v\u016Fbec\ existuje.\ \r\n\ Prov\u00E1d\u00ED\ kontrolu,\ jestli\ je\ spln\u011Bn\u00E1\ podm\u00EDnka\ v\u00FDhry.\ \r\n\ Obsahuje\ podm\u00EDnky,\ po\ kter\u00FDch\ je\ hra\ automaticky\ pova\u017Eov\u00E1na\ za\ prohr\u00E1nou.\r\n\r\n\ @author\ Sliusareva\ Elizaveta\r\n\ @version\ ZS-2020,\ 2021-01-10\r\n
+comment1.params=game
+comment1.target=ActionMove(Game)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n\r\n\ @param\ game\ hra,\ ve\ kter\u00E9\ se\ bude\ p\u0159\u00EDkaz\ pou\u017E\u00EDvat\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ tj.&nbsp;\ slovo\ <b>jdi</b>.\r\n\r\n\ @return\ n\u00E1zev\ p\u0159\u00EDkazu\r\n
+comment3.params=parameters
+comment3.target=java.lang.String\ execute(java.lang.String[])
+comment3.text=\ \r\n\ Nejd\u0159\u00EDv\ metoda\ prov\u00E1d\u00ED\ kontrolu,\ zda\ hr\u00E1\u010D\ zadal\ spravn\u00E9\ parametry;\r\n\ Prov\u00E1d\u00ED\ se\ kontrola,\ zda\ hr\u00E1\u010D\ sn\u011Bdl\ \u010Dokol\u00E1du\ a\ m\u00E1\ dost\ sil\ na\ to,\ aby\ \u0161el\ do\ m\u00EDstnosti\ s\ duchem;\r\n\ Prov\u00E1d\u00ED\ se\ kontrola,\ zda\ hr\u00E1\u010D\ na\u0161el\ knihu\ p\u0159edt\u00EDm\ ne\u017E\ j\u00EDt\ do\ m\u00EDstnosti\ s\ duchem;\r\n\ Prov\u00E1d\u00ED\ se\ kontrola,\ zda\ hr\u00E1\u010D\ m\u00E1\ v\ batohu\ kl\u00ED\u010D\ -\ podm\u00EDnka\ pro\ v\u00FDhru.\ Pokud\ kl\u00ED\u010D\ nem\u00E1,\ do\ v\u00FDchodu\ se\ nedost\u00E1ne.\r\n\ Ukon\u010D\u00ED\ hru\ v\u00FDhrou,\ jestli\ jsou\ spln\u011Bny\ v\u0161echny\ podm\u00EDnky;\r\n\ Ukon\u010D\u00ED\ hru\ prohrou,\ pokud\ hr\u00E1\u010D\ zajde\ do\ m\u00EDstnosti\ "sklep";\r\n\ Prov\u00E1d\u00ED\ se\ kontrola,\ zda\ pokoj\ soused\u00ED\ s\ m\u00EDstnost\u00ED,\ do\ kter\u00E9\ se\ hr\u00E1\u010D\ z\ akti\u00E1ln\u00ED\ m\u00EDstnosti\ chce\ dostat.\ Pokud\ ne,\ vrat\u00ED\ textov\u00FD\ \u0159et\u011Bzec,\ \u017Ee\ tam\ j\u00EDt\ nem\u016F\u017Ee\r\n
+numComments=4

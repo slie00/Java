@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=INamed
+comment0.text=\r\n\ Rozhran\u00ED\ definuj\u00EDc\u00ED\ hern\u00ED\ objekt,\ kter\u00FD\ je\ ozna\u010Den\u00FD\ n\u011Bjak\u00FDm\ jm\u00E9nem\r\n\ <i>(jednoslovn\u00FDm\ identifik\u00E1torem)</i>.\ Rozhran\u00ED\ implementuj\u00ED\ hern\u00ED\ p\u0159\u00EDkazy,\r\n\ prostory,\ p\u0159edm\u011Bty\ a\ m\u011Bly\ by\ ho\ implementovat\ i\ jak\u00E9koliv\ dal\u0161\u00ED\ hern\u00ED\ objekty,\r\n\ kter\u00E9\ m\u00E1\ b\u00FDt\ mo\u017En\u00E9\ zadat\ na\ konzoli\ jako\ parametry\ p\u0159\u00EDkaz\u016F.\r\n\r\n\ @author\ Sliusareva\ Elizaveta\r\n\ @version\ ZS-2020,\ 2021-01-10\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ hern\u00EDho\ objektu.\ Jedn\u00E1\ se\ o\ jedno\ slovo,\ kter\u00E9\ hr\u00E1\u010D\r\n\ pou\u017E\u00EDv\u00E1\ pro\ identifikaci\ hern\u00EDho\ objektu\ na\ konzoli,\ nap\u0159.\ 'n\u00E1pov\u011Bda',\r\n\ 'dome\u010Dek',\ 'v\u00EDno'\ apod.\r\n\r\n\ @return\ n\u00E1zev\ hern\u00EDho\ objektu\r\n
+numComments=2

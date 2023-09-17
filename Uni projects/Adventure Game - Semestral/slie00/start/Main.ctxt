@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ Spou\u0161t\u011Bc\u00ED\ t\u0159\u00EDda\ aplikace.\r\n\r\n\ @author\ Sliusareva\ Elizaveta\r\n\ @version\ ZS-2020,\ 2021-01-10\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Spou\u0161t\u011Bc\u00ED\ metoda\ aplikace.\ Vyhodnot\u00ED\ parametry,\ se\ kter\u00FDmi\ byla\ aplikace\r\n\ spu\u0161t\u011Bna,\ a\ na\ z\u00E1klad\u011B\ nich\ rozhodne,\ jakou\ operaci\ provede\ <i>(hra,\ z\u00E1kladn\u00ED\r\n\ nebo\ podrobn\u00FD\ v\u00FDpis\ testovac\u00EDch\ sc\u00E9n\u00E1\u0159\u016F,\ spu\u0161t\u011Bn\u00ED\ testovac\u00EDch\ sc\u00E9n\u00E1\u0159\u016F)</i>.\r\n\ <p>\r\n\ Pokud\ byla\ aplikace\ spu\u0161t\u011Bna\ s\ nepodporovan\u00FDmi\ parametry,\ vyp\u00ED\u0161e\ n\u00E1pov\u011Bdu\r\n\ a\ skon\u010D\u00ED.\r\n\r\n\ @param\ args\ parametry\ aplikace\ z\ p\u0159\u00EDkazov\u00E9\ \u0159\u00E1dky\r\n
+comment2.params=scenarioName
+comment2.target=boolean\ checkScenarioName(java.lang.String)
+numComments=3

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Bag
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ inv\u011Bnt\u00E1\u0159\ hlavn\u00ED\ postavy.\ Datov\u00FD\ atribut\r\n\ {@link\ \#capacity}\ uk\u00E1zuje,\ \u017Ee\ maxim\u00E1ln\u00ED\ po\u010Det\ v\u011Bc\u00ED\ v\ batohu\ nemus\u00ED\ p\u0159esahovat\ 3.\r\n\ Pomoc\u00ED\ batohu\ hr\u00E1\u010D\ uchov\u00E1v\u00E1\ v\u011Bci,\ kter\u00E9\ pak\ m\u016F\u017Ee\ pou\u017E\u00EDvat\ v\ jin\u00E9ch\ prostorech\ \r\n\ a\ nejen\ v\ t\u011Bch,\ ve\ kter\u00FDch\ v\u011Bc\ dostal.\r\n\r\n\ @author\ Elizaveta\ Sliusareva\r\n\ @version\ ZS-2020,\ 2021-01-10\r\n
+comment1.params=
+comment1.target=java.util.List\ getItems()
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ kolekci\ objekt\u016F\ nach\u00E1zej\u00EDc\u00EDch\ se\ v\ dan\u00E9m\ kontejneru.\r\n\r\n\ @return\ kolekce\ objekt\u016F\ nach\u00E1zej\u00EDc\u00EDch\ se\ v\ dan\u00E9m\ kontejneru\r\n
+comment2.params=item
+comment2.target=void\ putItem(Item)
+comment2.text=\r\n\ Pomoc\u00ED\ teto\ metody\ hr\u00E1\u010D\ m\u016F\u017Ee\ vlo\u017Eit\ v\u011Bc\ do\ batohu\r\n
+comment3.params=itemName
+comment3.target=Item\ removeItem(java.lang.String)
+comment3.text=\r\n\ Metoda\ odstran\u00ED\ v\u011Bc\ z\ batohu\ (a\ nevr\u00E1t\u00ED\ ji\ do\ pokoje)\ pokud\ ji\ hr\u00E1\u010D\ pou\u017Eil\ \r\n\ podle\ ur\u010Den\u00E9ho\ \u00FA\u010Delu\r\n\ @return\ Item\ vrat\u00ED\ v\u011Bc\r\n
+comment4.params=name
+comment4.target=boolean\ contains(java.lang.String)
+comment4.text=\r\n\ Metoda\ kontroluje,\ zda\ batoh\ obsahuje\ ur\u010Ditou\ v\u011Bc,\ kterou\ hr\u00E1\u010D\ chce\ pou\u017E\u00EDt\r\n\ nebo\ ne\r\n\ @return\ boolean\ true,\ jestli\ v\u011Bc\ je\ v\ batohu\r\n
+comment5.params=
+comment5.target=boolean\ isFull()
+comment5.text=\r\n\ Metoda\ kontroluje\ zda\ po\u010Det\ v\u011Bc\u00ED\ v\ batohu\ nep\u0159esahuje\ nastavenou\ kapacitu\ \r\n\ (max\ po\u010Det\ v\u011Bc\u00ED\ je\ 3)\r\n\ @return\ boolean\ true,\ pokud\ p\u0159esahuje\ kapacitu\r\n
+numComments=6

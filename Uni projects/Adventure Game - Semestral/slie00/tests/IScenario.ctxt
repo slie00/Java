@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IScenario
+comment0.text=\r\n\ Instance\ interfejsu\ {@code\ IScenario}\ p\u0159edstavuj\u00ED\ sc\u00E9n\u00E1\u0159e,\r\n\ podle\ nich\u017E\ je\ mo\u017Eno\ simulovat\ b\u011Bh\ hry\ nebo\ hru\ testovat.\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2020-Winter\r\n
+comment1.params=
+comment1.target=ScenarioStep[]\ steps()
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ vektor\ (jednorozm\u011Brn\u00E9\ pole)\ krok\u016F\ dan\u00E9ho\ sc\u00E9n\u00E1\u0159e.\r\n\r\n\ @return\ Vektor\ krok\u016F\ dan\u00E9ho\ sc\u00E9n\u00E1\u0159e\r\n
+numComments=2

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ScenarioStep
+comment0.text=\r\n\ <p>T\u0159\u00EDda\ {@code\ ScenarioStep}\ slou\u017E\u00ED\ jako\ p\u0159epravka\ k\ uchov\u00E1v\u00E1n\u00ED\ informac\u00ED\r\n\ o\ jednotliv\u00FDch\ zad\u00E1van\u00FDch\ p\u0159\u00EDkazech\ sc\u00E9n\u00E1\u0159e\ a\ o\ o\u010Dek\u00E1van\u00FDch\ stavech\r\n\ programu\ po\ jejich\ proveden\u00ED.</p>\r\n\ <p>Kroky\ sc\u00E9n\u00E1\u0159e\ obsahuj\u00ED\ informace\ slou\u017E\u00EDc\u00ED\ k\ ov\u011B\u0159en\u00ED\ spr\u00E1vn\u00E9\ reakce\r\n\ hry\ na\ p\u0159\u00EDkaz\ zad\u00E1van\u00FD\ v\ p\u0159\u00EDslu\u0161n\u00E9m\ kroku\ sc\u00E9n\u00E1\u0159e.</p>\r\n\r\n\ @author\ \ Rudolf\ PECINOVSK\u00DD\r\n\ @version\ 2020-Winter\r\n
+comment1.params=
+comment1.target=int\ getLastIndex()
+comment1.text=\r\n\ Vr\u00E1t\u00ED\ hodnotu,\ na\ n\u00ED\u017E\ bude\ navazovat\ index\ n\u00E1sledn\u011B\ vytvo\u0159en\u00E9ho\ kroku.\r\n\r\n\ @return\ Po\u017Eadovan\u00E1\ hodnota\r\n
+comment2.params=next
+comment2.target=int\ setIndex(int)
+comment2.text=\r\n\ Nastav\u00ED\ index\ p\u0159\u00ED\u0161t\u00EDho\ kroku\ a\ vr\u00E1t\u00ED\ index\ posledn\u00EDho\ vytvo\u0159en\u00E9ho\ kroku.\r\n\r\n\ @param\ next\ index\ p\u0159\u00ED\u0161t\u00EDho\ kroku\r\n\ @return\ index\ posledn\u00EDho\ vytvo\u0159en\u00E9ho\ kroku\r\n
+comment3.params=command\ message\ place\ neighbors\ items\ bag
+comment3.target=ScenarioStep(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String[],\ java.lang.String[],\ java.lang.String[])
+comment3.text=\r\n\ Vytvo\u0159\u00ED\ krok\ umo\u017E\u0148uj\u00EDc\u00ED\ otestov\u00E1n\u00ED\ spr\u00E1vn\u00E9\ funkce\ hry.\ Index\ tohoto\ kroku\ bude\r\n\ o\ jedni\u010Dku\ v\u011Bt\u0161\u00ED\ ne\u017E\ index\ kroku\ vytvo\u0159en\u00E9ho\ p\u0159ed\ n\u00EDm,\ p\u0159esn\u011Bji\ ne\u017E\ posledn\u00ED\r\n\ zapamatovan\u00FD\ index.\r\n\r\n\ @param\ command\ \ \ \ zadan\u00FD\ p\u0159\u00EDkaz\r\n\ @param\ message\ \ \ \ zpr\u00E1va\ vr\u00E1cen\u00E1\ v\ reakci\ na\ zadan\u00FD\ p\u0159\u00EDkaz\r\n\ @param\ place\ \ \ \ \ \ n\u00E1zev\ prostoru,\ v\ n\u011Bm\u017E\ bude\ hr\u00E1\u010D\ po\ vykon\u00E1n\u00ED\ p\u0159\u00EDkazu\r\n\ @param\ neighbors\ \ n\u00E1zvy\ prostor\u016F,\ kam\ se\ je\ odsud\ mo\u017Eno\ p\u0159esunout\r\n\ @param\ items\ \ \ \ \ \ n\u00E1zvy\ objekt\u016F\ v\ aktu\u00E1ln\u00EDm\ prostoru\r\n\ @param\ bag\ \ \ \ \ \ \ \ n\u00E1zvy\ objekt\u016F\ v\ batohu\r\n
+comment4.params=index\ command\ message\ place\ neighbors\ items\ bag
+comment4.target=ScenarioStep(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String[],\ java.lang.String[],\ java.lang.String[])
+comment4.text=\r\n\ Vytvo\u0159\u00ED\ krok\ umo\u017E\u0148uj\u00EDc\u00ED\ otestov\u00E1n\u00ED\ spr\u00E1vn\u00E9\ funkce\ hry,\ p\u0159i\u010Dem\u017E\ tento\ krok\ bude\r\n\ m\u00EDt\ zadan\u00FD\ index,\ na\ n\u011Bj\u017E\ budou\ navazovat\ indexy\ n\u00E1sledn\u011B\ vytvo\u0159en\u00FDch\ krok\u016F\ bez\r\n\ explicitn\u011B\ zadan\u00E9ho\ indexu.\r\n\r\n\ @param\ index\ \ \ \ \ \ \u010D\u00EDslo,\ kter\u00E9\ by\ m\u011Blo\ ur\u010Dovat\ po\u0159ad\u00ED\ dan\u00E9ho\ kroku\ v\ r\u00E1mci\ jeho\ sc\u00E9n\u00E1\u0159e\r\n\ @param\ command\ \ \ \ zadan\u00FD\ p\u0159\u00EDkaz\r\n\ @param\ message\ \ \ \ zpr\u00E1va\ vr\u00E1cen\u00E1\ v\ reakci\ na\ zadan\u00FD\ p\u0159\u00EDkaz\r\n\ @param\ place\ \ \ \ \ \ n\u00E1zev\ prostoru,\ v\ n\u011Bm\u017E\ bude\ hr\u00E1\u010D\ po\ vykon\u00E1n\u00ED\ p\u0159\u00EDkazu\r\n\ @param\ neighbors\ \ n\u00E1zvy\ prostor\u016F,\ kam\ se\ je\ odsud\ mo\u017Eno\ p\u0159esunout\r\n\ @param\ items\ \ \ \ \ \ n\u00E1zvy\ objekt\u016F\ v\ aktu\u00E1ln\u00EDm\ prostoru\r\n\ @param\ bag\ \ \ \ \ \ \ \ n\u00E1zvy\ objekt\u016F\ v\ batohu\r\n
+comment5.params=
+comment5.target=int\ hashCode()
+comment5.text=\r\n\ Vr\u00E1t\u00ED\ hash\ k\u00F3d\ dan\u00E9ho\ kroku\ sc\u00E9n\u00E1\u0159e.\r\n\r\n\ @return\ hash\ k\u00F3d\ dan\u00E9ho\ kroku\ sc\u00E9n\u00E1\u0159e\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Podrobn\u00FD\ popis\ dan\u00E9ho\ kroku\ sc\u00E9n\u00E1\u0159e.\ obsahuje-li\ atribut\ {@link\ \#message}\r\n\ hodnotu\ {@code\ null},\ vyp\u00ED\u0161e\ se\ pouze\ index\ kroku\ a\ zadan\u00FD\ p\u0159\u00EDkaz.\r\n\r\n\ @return\ textov\u00FD\ popis\ dan\u00E9\ instance\r\n
+numComments=7

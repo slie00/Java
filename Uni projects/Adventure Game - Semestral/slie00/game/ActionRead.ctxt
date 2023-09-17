@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ActionRead
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ nazev\ akce\ a\ souvisej\u00EDc\u00ED\ s\ n\u00ED\ textov\u00E9\ \u0159et\u011Bzce\ p\u0159\u00EDkaz\u016F,\ pomoc\u00ED\ kter\u00E9\ hr\u00E1\u010D\ m\u016F\u017Ee\ p\u0159e\u010D\u00EDst\ objekt\ \ \r\n\ Obsahuje\ metody,\ kter\u00E9\ vyhodnocuj\u00ED\ jednotliv\u00E9\ p\u0159\u00EDkazy\ zadan\u00E9\ u\u017Eivatelem.\r\n\ \r\n\ @author\ Sliusareva\ Elizaveta\r\n\ @version\ ZS-2020,\ 2021-01-10\ \r\n
+comment1.params=game
+comment1.target=ActionRead(Game)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n\r\n\ @param\ game\ hra,\ ve\ kter\u00E9\ se\ bude\ p\u0159\u00EDkaz\ pou\u017E\u00EDvat\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ tj.&nbsp;\ slovo\ <b>p\u0159e\u010Dti</b>.\r\n\r\n\ @return\ n\u00E1zev\ p\u0159\u00EDkazu\r\n
+comment3.params=parameters
+comment3.target=java.lang.String\ execute(java.lang.String[])
+comment3.text=\r\n\ Metoda\ kontroluje,\ zda\ hr\u00E1\u010D\ zadal\ spravn\u00E9\ parametry\r\n\ Prov\u00E1d\u00ED\ se\ kontrola,\ \ objekt,\ kter\u00FD\ hr\u00E1\u010D\ chce\ p\u0159e\u010D\u00EDst\ je\ v\ batohu\ a\ zda\ persona,\ kter\u00E9\ postava\ m\u00E1\ p\u0159e\u010D\u00EDst\ knihu\ je\ v\ pokoje\ \r\n\ Metoda\ kontroluje,\ zda\ objekt,\ kter\u00E9mu\ m\u00E1me\ p\u0159e\u010D\u00EDst\ knihu\ nen\u00ED\ v\u011Bc\r\n\ Pokud\ v\u00FD\u0161e\ uveden\u00E9\ podm\u00EDnky\ jsou\ spln\u011Bn\u00FD,\ metoda\ odstr\u00E1n\u00ED\ z\ pokoje\ v\u0161echny\ objekty\ a\ v\ batohu\ se\ objev\u00ED\ kl\u00ED\u010D,\ kter\u00FD\ je\ hlavn\u00ED\ podm\u00EDnkou\ pro\ v\u00FDhru\r\n\ Vr\u00E1t\u00ED\ se\ odpov\u00EDdaj\u00EDc\u00ED\ texov\u00E9\ \u0159et\u011Bzce\ pokud\ podm\u00EDnky\ jsou\ spln\u011Bn\u00FD\ nebo\ nen\u00ED\r\n
+numComments=4

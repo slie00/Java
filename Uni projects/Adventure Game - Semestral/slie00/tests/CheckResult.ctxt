@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CheckResult
+comment0.text=\r\n\ Pomocn\u00E1\ t\u0159\u00EDda\ pro\ uchov\u00E1v\u00E1n\u00ED\ v\u00FDsledk\u016F\ d\u00EDl\u010D\u00ED\ kontroly,\ kter\u00E1\ je\r\n\ sou\u010D\u00E1st\u00ED\ vyhodnocen\u00ED\ jednoho\ kroku\ v\ testovac\u00EDm\ sc\u00E9n\u00E1\u0159i\ <i>(nap\u0159.\r\n\ kontrola\ aktu\u00E1ln\u00EDho\ prostoru,\ dostupn\u00FDch\ sousedn\u00EDch\ prostor\u016F\ apod.)</i>.\r\n
+comment1.params=success\ message
+comment1.target=CheckResult(boolean,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy,\ vytvo\u0159\u00ED\ z\u00E1znam\ s\ dan\u00FDm\ v\u00FDsledkem\ a\ zpr\u00E1vou\ pro\ u\u017Eivatele.\r\n\r\n\ @param\ success\ p\u0159\u00EDznak,\ zda\ kontrola\ byla\ \u00FAsp\u011B\u0161n\u00E1\r\n\ @param\ message\ zpr\u00E1va\ pro\ u\u017Eivatele\r\n
+comment2.params=
+comment2.target=boolean\ isSuccess()
+comment2.text=\r\n\ Vrac\u00ED\ p\u0159\u00EDznak,\ zda\ kontrola\ byla\ \u00FAsp\u011B\u0161n\u00E1.\r\n\r\n\ @return\ {@code\ true},\ pokud\ kontrola\ byla\ \u00FAsp\u011B\u0161n\u00E1;\ jinak\ {@code\ false}\r\n
+comment3.params=
+comment3.target=java.lang.String\ getMessage()
+comment3.text=\r\n\ Vrac\u00ED\ zpr\u00E1vu\ pro\ u\u017Eivatele.\r\n\r\n\ @return\ zpr\u00E1va\ pro\ u\u017Eivatele\r\n
+numComments=4

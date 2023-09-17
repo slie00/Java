@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TextUI
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ u\u017Eivatelsk\u00E9\ rozhran\u00ED\ aplikace.\ Zaji\u0161\u0165uje\ na\u010D\u00EDt\u00E1n\u00ED\r\n\ p\u0159\u00EDkaz\u016F\ z\ konzole\ a\ v\u00FDpis\ reakc\u00ED\ hry.\r\n\r\n\ @author\ Jan\ \u0158\u00EDha\r\n\ @version\ ZS-2020,\ 2020-12-14\r\n
+comment1.params=game
+comment1.target=TextUI(game.Game)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy,\ vytvo\u0159\u00ED\ u\u017Eivatelsk\u00E9\ rozhran\u00ED\ pro\ danou\ hru.\r\n\r\n\ @param\ game\ hra\r\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\r\n\ Metoda\ zaji\u0161\u0165uje\ hran\u00ED\ hry.\ Nejprve\ zah\u00E1j\u00ED\ hru\ p\u0159ed\u00E1n\u00EDm\ pr\u00E1zdn\u00E9ho\r\n\ p\u0159\u00EDkazu.\ Pot\u00E9\ v\ cyklu\ na\u010D\u00EDt\u00E1\ zadan\u00E9\ p\u0159\u00EDkazy\ z\ konzole,\ p\u0159ed\u00E1v\u00E1\ je\r\n\ h\u0159e\ ke\ zpracov\u00E1n\u00ED\ a\ vypisuje\ reakce\ hry.\ To\ se\ neust\u00E1le\ opakuje,\r\n\ dokud\ hra\ prost\u0159ednictv\u00EDm\ metody\ {@link\ Game\#isGameOver()\ isGameOver}\r\n\ neozn\u00E1m\u00ED,\ \u017Ee\ skon\u010Dila.\r\n
+comment3.params=
+comment3.target=java.lang.String\ readLine()
+numComments=4

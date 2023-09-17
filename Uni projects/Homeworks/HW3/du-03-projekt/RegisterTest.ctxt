@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=RegisterTest
+comment0.text=\ \ \ \ \ \r\n\ T\u0159\u00EDda\ RegisterTest\ p\u0159edstavuje\ \ \ \ \ \ \ \r\n\ \ \ \ \r\n\ @author\:\ Elizaveta\ Sliusareva\ \ \ \ \r\n\ @version\:\ 2020-11-21\ \ \ \ \ \r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment10.params=
+comment10.target=void\ removeStudentByInsisIdTest()
+comment2.params=
+comment2.target=void\ addStudentTest()
+comment3.params=
+comment3.target=void\ getAllStudentsTest()
+comment4.params=
+comment4.target=void\ testGetEmailsByFaculty()
+comment5.params=
+comment5.target=void\ testGetStudentsByCity()
+comment6.params=
+comment6.target=void\ testGetOldestStudent()
+comment7.params=
+comment7.target=void\ testGetSecondOldestStudent()
+comment8.params=
+comment8.target=void\ getStudentsByFacultyTest()
+comment9.params=
+comment9.target=void\ getStudentByInsisIdTest()
+numComments=11
